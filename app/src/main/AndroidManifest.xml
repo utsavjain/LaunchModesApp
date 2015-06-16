@@ -9,12 +9,29 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".ActivityOne"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityTwo"
+            android:label="activity_two" >
+        </activity>
+        <activity
+            android:name=".ActivityThree"
+            android:label="activity_three" >
+        </activity>
+        <activity
+            android:name=".ActivityFour"
+            android:label="activity_four" >
+        </activity>
+        <activity
+            android:name=".ActivityBase"
+            android:label="activity_base" >
         </activity>
     </application>
 
